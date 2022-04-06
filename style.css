@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Inline+One:ital@1&family=IBM+Plex+Mono:ital@1&family=Monoton&family=Satisfy&display=swap');
+/* font-family: 'Alumni Sans Inline One', cursive;
+font-family: 'IBM Plex Mono', monospace;
+font-family: 'Monoton', cursive;
+font-family: 'Satisfy', cursive; */
+
+
+/* top section */
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px 1rem;
+}
+
+/* nav section */
+
+header{
+    /* display flex brings all children in one line */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* give parent some width and then try to manage the space horizontally and vertically */
+ul{
+    display: flex;
+    width: 25rem;
+    justify-content: space-evenly;
+}
+ul>li{
+    width: 30%;
+}
+nav{
+    margin-right: 2rem;
+}
+
+h1{
+    margin-left: 2rem;
+    font-family: 'Monoton', cursive;
+}
+h3{
+    font-family: 'IBM Plex Mono', monospace;
+}
+p{
+    font-family: 'Satisfy', cursive;
+}
+a{
+    text-decoration: none;
+    font-size: 130%;;
+}
+li{
+    list-style:none;
+    font-size: large;
+}
+a:visited{
+    color: black;
+}
+a:hover{
+    color: red;
+}
+
+/* body section */
+.main-img{
+    width: 100%;
+    height: auto;
+}
+
+.parent{
+    margin-top: 2rem;
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+.child{
+    width: 30%;
+}
+
+/* footer section */
+
+.footer_parent{
+    height: 5rem;
+    background-color: black;
+    /* align-items - manage space vertically */
+    /* justify-content - manage space horizontally */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer_content{
+    color: #fff;
+    font-weight: 500;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-family: 'IBM Plex Mono', monospace;
+
+}
